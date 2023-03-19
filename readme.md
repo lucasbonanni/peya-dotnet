@@ -5,7 +5,7 @@ https://stackoverflow.com/questions/53300480/unable-to-configure-https-endpoint-
 ```dotnet dev-certs https --trust```
 
 ## db initialize 
- dotnet ef migrations add Initial --project D:\Multimedia\TaskAPI\Services\Services.csproj  --context SQLliteDbContext
+ dotnet ef migrations add Initial --project Services\Services.csproj  --context SQLliteDbContext
 
 ## db schema update 
- dotnet ef database update --project D:\Multimedia\TaskAPI\Services\Services.csproj  --context SQLliteDbContext
+ dotnet ef database update --project Services\Services.csproj  --context SQLliteDbContext
